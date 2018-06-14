@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>网点查询</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/iosSelect.css">
+    <link rel="stylesheet" href="css/dotQuery.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+
+<body>
+    <!-- 大盒子 -->
+    <div id="dotQuery">
+        <!-- 三级联动 ===begin-->
+        <div id="threeAction">
+            <span class="province area showBank" data-name="1" id="province">
+                <span class="content">
+                    <span class="content-area">请选择省份</span>
+                    <span class="arrow  iconfont  icon-Group-1"  ></span>
+                </span>
+            </span>
+            <span class="city area" data-name="2" id="city">
+                <span class="content">
+                    <span class="content-area">请选择所在市</span>
+                    <span class="arrow  iconfont  icon-Group-1"  ></span>
+                </span>
+            </span>
+            <span class="district area" data-name="3" id="district">
+                <span class="content">
+                    <span class="content-area">请选择所在区</span>
+                    <span class="arrow  iconfont  icon-Group-1"  ></span>
+                </span>
+            </span>
+        </div>
+        <!-- 三级联动 ===end-->
+        <!-- 内容 ===beigin -->
+        <div id="content">
+            <div class="content-shop">
+                <div class="content-shop-container">
+                    <p class="content-shop-title">
+                        <span class="content-shop-line"></span>
+                        <span class="content-shop-name">上海黄浦区营业1部</span>
+                    </p>
+                    <div class="content-shop-time content-shop-introduce">
+                        <span>营业时间:</span>
+                        <span>8:00-17:00</span>
+                    </div>
+                    <div class="content-shop-range content-shop-introduce">
+                        <span>服务范围:</span>
+                        <span>产品销售 理赔支付</span>
+                    </div>
+                    <div class="content-shop-icon content-shop-introduce">
+                        <span>周围地标:</span>
+                        <span>上海书城旁</span>
+                    </div>
+                    <div class="content-shop-address">
+                        <div>
+                            <span class="address-icon"></span>
+                            <span>上海市黄浦区广东路500号世界贸易大厦</span>
+                        </div>
+                        <span class="iconfont icon-you"></span>
+                    </div>
+                    <div class="content-shop-phone">
+                        <div>
+                            <span class="phone-icon"></span>
+                            <span>021-89766787</span>
+                        </div>
+                        <span class="iconfont icon-you"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- 内容 ===end -->
+        <div class="provinceList hideDiv">
+            <ul>
+                <li class="option-list">上海</li>
+                <li class="option-list">北京</li>
+                <li class="option-list">天津</li>
+                <li class="option-list">河北</li>
+                <li class="option-list">江苏</li>
+                <li class="option-list">上海</li>
+                <li class="option-list">北京</li>
+                <li class="option-list">天津</li>
+                <li class="option-list">河北</li>
+                <li class="option-list">江苏</li>
+                <li class="option-list">上海</li>
+                <li class="option-list">北京</li>
+                <li class="option-list">天津</li>
+                <li class="option-list">河北</li>
+                <li class="option-list">江苏</li> 
+                <li class="option-list">北京</li>
+                <li class="option-list">天津</li>
+                <li class="option-list">河北</li>
+                <li class="option-list">江苏</li>   
+            </ul>
+        </div>
+        <div class="cityList hideDiv">
+            <ul></ul>
+        </div>
+        <div class="districtList hideDiv">
+                <ul></ul>
+        </div>
+
+    </div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/config.js"></script>
+<script src="js/rem.js"></script>
+<script src="data/id.js"></script>
+<script src="js/iosSelect.js"></script>
+<script src="js/dotQuery.js"></script>
+
+</html>

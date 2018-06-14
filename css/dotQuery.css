@@ -1,0 +1,194 @@
+html,body{
+    background-color: #f4f4f4;
+    width:100%;
+    height: 100%;
+}
+#dotQuery{
+    height: 100%;
+    width:100%;
+    background-image: url("../images/dot-query.png");
+    background-repeat: no-repeat;  
+    background-size: 100% 100%; 
+}
+/* 三级联动盒子 */
+#threeAction{
+    display: flex;
+    justify-content: space-around;
+    height:4.5rem;
+    background-color: #fff;
+    align-items: center;
+}
+/* 省市区公共样式 */
+.area{
+     /* line-height:4.5rem ; */
+     font-size: 1.2rem;
+     flex:1;
+     text-align: center;
+     border-left:1px solid #e8e8e8;
+     height:100%;
+     vertical-align: middle;
+     line-height:4.5rem ;
+}
+/* 三级联动内容 */
+content{
+   margin:0 auto;
+   display: inline-block;
+}
+/* 店铺盒子 --最外层盒子*/
+#content{
+    padding:0 1.2rem;
+    margin-top: 1rem;
+}
+/* 具体内容盒子--第二层盒子 */
+.content-shop{
+    width:100%;
+    height:23.9rem;
+    background-color: #fff;
+    
+    border-radius: 0.5rem;
+}
+/* 最里层盒子 */
+.content-shop-container{
+    padding:2.2rem  1.5rem  3.3rem 1.5rem;
+}
+.content-shop-title{
+    display: flex;
+    align-items: center;
+}
+/* 黄线 */
+.content-shop-line{
+   width:0.5rem;
+   height:1.2rem;
+   background-color: #e07b26;
+}
+/* 店铺名字 */
+.content-shop-name{
+  font-size: 1.4rem;
+  color:#4e4e4e;
+  margin-left: 0.8rem;
+}
+
+.content-shop-introduce{
+    display: flex;
+    font-size: 1.3rem;
+    color:#a8a8a8;
+    justify-content: space-between;
+}
+/* 营业时间 */
+.content-shop-time{
+   margin-top: 2.5rem;
+}
+/* 营业范围 */
+.content-shop-range{
+  margin-top: 1.4rem;
+}
+/* 周围坐标 */
+.content-shop-icon{
+    margin-top: 1.4rem;
+}
+/* 地址 */
+.content-shop-address{
+    display: flex;
+    margin-top: 2.6rem;
+    font-size: 1.2rem;
+    color:#de7d2f;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 电话 */
+.content-shop-phone{
+    display: flex;
+    margin-top: 2.6rem;
+    font-size: 1.2rem;
+    color:#de7d2f;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 箭头 */
+.arrow {
+    color:#d0d0d0;
+}
+/* 调整选项所在的位置 */
+.ios-select-widget-box.olay > div{
+    top:4.5rem;
+}
+/* 调整遮罩层的背景颜色 */
+.ios-select-widget-box.olay{
+    background: rgba(0, 0, 0, 0);
+}
+/* 输入内容提示 */
+.content-area{
+   height:100%;
+   color: #8e8e8e;
+}
+/* 省列表==一级盒子 */
+.provinceList{
+    position: fixed;
+    width:100%;
+    top:4.5rem;
+    background-color: #fff;
+    height:23.8rem;
+    overflow: auto;
+}
+/* 省列表 */
+.option-list{
+  height:4.3rem;
+  border:1px solid #e7e7e7;
+  text-align: center;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  color:#525252;
+  width:100%;
+}
+
+/* 市列表==一级盒子 */
+.cityList{
+    position: fixed;
+    width:100%;
+    top:4.5rem;
+    background-color: #fff;
+    height:23.8rem;
+    overflow: auto;
+}
+/* 区级盒子 */
+.districtList{
+    position: fixed;
+    width:100%;
+    top:4.5rem;
+    background-color: #fff;
+    height:23.8rem;
+    overflow: auto;
+}
+
+
+/* 地址图标 */
+.common-icon{
+    width:1.9rem;
+    height: 1.6rem;
+    margin-right: 1.1rem;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+.address-icon{
+    background-image: url("../images/icon-adrress2.png ");
+    height: 1.9rem;
+}
+.phone-icon{
+    background-image: url("../images/icon-phone2.png");
+     height: 1.6rem;
+   
+}
+/* 图标盒子 */
+.icon-box-common{
+    display: flex;
+    align-items: center;
+
+}
+/* 右图标 */
+.icon-you{
+    color:#a8a8a8;
+}
+/* 字体颜色 */
+.key-val{
+    color:#868686;
+}
